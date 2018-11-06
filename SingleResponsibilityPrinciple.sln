@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple", "SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{F850FD91-C460-4B0B-B662-4113C5A6C6A7}"
 EndProject
@@ -12,6 +12,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple.AdoNet", "SingleResponsibilityPrinciple.AdoNet\SingleResponsibilityPrinciple.AdoNet.csproj", "{BA086CB7-306C-4E77-A2C4-5E82B8E71808}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrincipleTests", "SingleResponsibilityPrincipleTests\SingleResponsibilityPrincipleTests.csproj", "{DDBEC9AB-372D-484A-AF40-8EB87CC4176E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{74DB334C-0DF1-4C39-87D9-D2E84A74E586}"
+	ProjectSection(SolutionItems) = preProject
+		URLTradeDataProvider.cs = URLTradeDataProvider.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,5 +49,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2628F960-C3C0-45CD-905E-BA2BDE8108F0}
 	EndGlobalSection
 EndGlobal

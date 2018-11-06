@@ -49,6 +49,7 @@
     <Compile Include="SimpleTradeValidator.cs" />
     <Compile Include="StreamTradeDataProvider.cs" />
     <Compile Include="TradeProcessor.cs" />
+    <Compile Include="URLTradeDataProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
