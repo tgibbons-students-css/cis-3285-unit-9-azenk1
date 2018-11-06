@@ -33,6 +33,13 @@ namespace SingleResponsibilityPrinciple
                 return false;
             }
 
+            //Check bounds of trade amount
+            if(tradeAmount < 1000 || tradeAmount > 100000)
+            {
+                logger.LogWarning("Trade value is not in bounds");
+                return false;
+            }
+
             decimal tradePrice;
             if (!decimal.TryParse(tradeData[2], out tradePrice))
             {
